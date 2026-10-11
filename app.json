@@ -1,25 +1,17 @@
 {
   "expo": {
-    "name": "MOB_A2_2528164",
-    "slug": "MOB_A2_2528164",
+    "name": "MuramPortfolio",
+    "slug": "muramportfolio",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
-    "userInterfaceStyle": "light",
-    "ios": {
-      "supportsTablet": true
-    },
     "android": {
-      "adaptiveIcon": {
-        "backgroundColor": "#E6F4FE",
-        "foregroundImage": "./assets/android-icon-foreground.png",
-        "backgroundImage": "./assets/android-icon-background.png",
-        "monochromeImage": "./assets/android-icon-monochrome.png"
-      },
-      "predictiveBackGestureEnabled": false
+      "package": "rw.ac.ines.ug2528164.muramportfolio"
     },
-    "web": {
-      "favicon": "./assets/favicon.png"
-    }
+    "plugins": [
+      ["expo-image-picker", {
+        "photosPermission": "Allow access to your gallery to choose a profile photo.",
+        "cameraPermission": "Allow camera access to take a profile photo."
+      }]
+    ]
   }
 }
